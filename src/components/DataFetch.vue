@@ -49,7 +49,7 @@ export default class HelloWorld extends Vue {
     console.log(navigator);
     
     let a = localStorage.getItem(TEST_KEY);
-    if (a != null && false) {
+    if (a != null) {
       console.log("FROM LS");
       
       this.data = JSON.parse(a);
